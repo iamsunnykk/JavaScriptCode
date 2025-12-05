@@ -1,0 +1,29 @@
+const prompt=require("prompt-sync")();
+let age = prompt("Enter your age");
+console.log(typeof age); //age is of string datatype
+age = Number(age);
+console.log(typeof age); //age is of number datatype
+
+//Conditional Statements
+
+//Prog 1
+let input = prompt("Enter a string");
+if(input === "Hello"){
+    console.log("Hello World");
+}
+
+//Prog 2
+let input = prompt("Enter a string");
+if(input === "Hello"){
+    console.log("Hello World");
+}
+else if(input === "Goodbye"){
+    console.log("Goodbye World");
+}
+else{
+    console.log("Invalid Input");
+}
+
+//Ternary Operator
+let input = prompt("Enter a string");
+input === "Hello" ? console.log("Hello World") : console.log("Goodbye World");
