@@ -13,11 +13,11 @@ if(input === "Hello"){
 }
 
 //Prog 2
-let input = prompt("Enter a string");
-if(input === "Hello"){
+let input1 = prompt("Enter a string");
+if(input1 === "Hello"){
     console.log("Hello World");
 }
-else if(input === "Goodbye"){
+else if(input1 === "Goodbye"){
     console.log("Goodbye World");
 }
 else{
@@ -25,5 +25,5 @@ else{
 }
 
 //Ternary Operator
-let input = prompt("Enter a string");
-input === "Hello" ? console.log("Hello World") : console.log("Goodbye World");
+let input2 = prompt("Enter a string");
+input2 === "Hello" ? console.log("Hello World") : console.log("Goodbye World");
