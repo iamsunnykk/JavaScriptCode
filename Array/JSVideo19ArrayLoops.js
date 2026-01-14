@@ -23,3 +23,21 @@ for (let i of fruits) {
 for (let i in fruits) {
     console.log(fruits[i]);
 }
+//For Each
+let num = [3,5,1,2,4]
+num.forEach((ele) => {
+    console.log(ele*ele)
+})
+//ArrayFrom
+let name="Sunil";
+let arr1 =Array.from(name)
+console.log(arr1)
+//For of
+for (let i of num){
+    console.log(i)
+}
+
+//for in
+for(let iteam of num){
+console.log(iteam)
+}
